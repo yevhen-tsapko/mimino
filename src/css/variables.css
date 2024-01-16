@@ -1,0 +1,15 @@
+:root {
+  --footerColor: #0e0c07;
+  --lightSectionTitleColor: #494848;
+  --lightSectionPreTitleColor: #b4b4b4;
+  --lightSectionTextColor1: #7a7a7a;
+  --lightSectionTextColor2: #c79002;
+  --darkSectionTitleColor: #ffffff;
+  --darkSectionTextColor: #bababa;
+  --buttonTextColor: #f3c653;
+  --buttonDisabledTextColor: #c79002;
+  --buttonDarkTextColor: #000000;
+  --adressTextcolor: #e5e5e5;
+
+  /* --tablet: 1024px; */
+}
