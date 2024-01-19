@@ -8,7 +8,9 @@
 @import url('../fonts/style.css');
 @import url('./variables.css');
 @import url('./component/container.css');
+@import url('./component/social-media.css');
 @import url('./common/header.css');
+@import url('./main/hero.css');
 
 :root {
   font-family: 'Montserrat', sans-serif;
