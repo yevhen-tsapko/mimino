@@ -1,0 +1,8 @@
+.social-icon {
+  fill: var(--buttonTextColor);
+}
+.social-icon:active,
+.social-icon:hover,
+.social-icon:focus {
+  fill: var(--lightSectionTextColor2);
+}
