@@ -8,14 +8,17 @@
 @import url('../fonts/style.css');
 @import url('./variables.css');
 @import url('./component/container.css');
+@import url('./component/title.css');
+@import url('./component/button-block.css');
 @import url('./component/social-media.css');
+@import url('./component/image-thumb.css');
 @import url('./common/header.css');
 @import url('./main/hero.css');
+@import url('./main/about-rest.css');
 
 :root {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
-  /* line-height: 24px; */
   font-weight: 600;
   color: var(--buttonTextColor);
 

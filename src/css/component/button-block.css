@@ -1,0 +1,17 @@
+.button-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.button {
+  color: currentColor;
+  border: 2px solid var(--darkSectionTitleColor);
+  border-radius: 25px;
+  background-color: transparent;
+}
+.button:active,
+.button:hover,
+.button:focus {
+  background-color: var(--darkSectionTitleColor);
+  border: 2px solid currentColor;
+}
