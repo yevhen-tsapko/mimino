@@ -38,6 +38,7 @@
 }
 .rest-hall-text {
   margin-top: 70px;
+  width: 163px;
 }
 .slider {
 }
@@ -67,6 +68,9 @@
     height: 524px;
     margin-bottom: 0;
   }
+  .about-rest-img {
+    height: 100%;
+  }
   .rest-hall-block {
     gap: 48px;
   }
@@ -74,6 +78,17 @@
     width: 312px;
     margin-top: 196px;
   }
+  /* .slider-wrapper {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding-left: 60px;
+    padding-bottom: 32px;
+  }
+  .slider {
+    display: flex;
+    gap: 40px;
+  } */
 }
 @media (min-width: 1280px) {
   .container-about-rest {

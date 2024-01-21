@@ -9,35 +9,69 @@
     </p>
   </div>
   <div class="image-thumb image-thumb-rest-interier">
-    <img
-      srcset="
-        ../img/aboutRestaraunt/about-restaurant-mob-1-x.jpg   445w,
-        ../img/aboutRestaraunt/about-restaurant-mob-1-2x.jpg  890w,
-        ../img/aboutRestaraunt/about-restaurant-tab-1-x.jpg   400w,
-        ../img/aboutRestaraunt/about-restaurant-tab-1-2x.jpg  800w,
-        ../img/aboutRestaraunt/about-restaurant-desk-1-x.jpg  460w,
-        ../img/aboutRestaraunt/about-restaurant-desk-1-2x.jpg 980w
-      "
-      sizes=" (min-width: 1024px) 400px, (min-width: 1280px) 460px, 445px"
-      src="../img/aboutRestaraunt/about-restaurant-mob-1-x.jpg"
-      alt="інтер'єр ресторану"
-    />
+    <picture>
+      <source
+        srcset="
+          ../img/aboutRestaraunt/about-restaurant-desk-1-x.jpg  1x,
+          ../img/aboutRestaraunt/about-restaurant-desk-1-2x.jpg 2x
+        "
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="
+          ../img/aboutRestaraunt/about-restaurant-tab-1-x.jpg  1x,
+          ../img/aboutRestaraunt/about-restaurant-tab-1-2x.jpg 2x
+        "
+        media="(min-width: 1024px)"
+      />
+      <source
+        srcset="
+          ../img/aboutRestaraunt/about-restaurant-mob-1-x.jpg  1x,
+          ../img/aboutRestaraunt/about-restaurant-mob-1-2x.jpg 2x
+        "
+        media="(min-width: 414px)"
+      />
+      <img
+        class="about-rest-img"
+        class="image"
+        src="../img/aboutRestaraunt/about-restaurant-mob-1-x.jpg"
+        alt="if'єр ресторану"
+        sizes="(min-width: 1280px) 460px, (min-width: 1024px) 400px, (min-width: 414px) 244px, 80vw"
+      />
+    </picture>
   </div>
   <div class="rest-hall-block">
     <div class="image-thumb">
-      <img
-        srcset="
-          ../img/aboutRestaraunt/about-restaurant-mob-2-x.jpg   200w,
-          ../img/aboutRestaraunt/about-restaurant-mob-2-2x.jpg  400w,
-          ../img/aboutRestaraunt/about-restaurant-tab-2-x.jpg   350w,
-          ../img/aboutRestaraunt/about-restaurant-tab-2-2x.jpg  700w,
-          ../img/aboutRestaraunt/about-restaurant-desk-2-x.jpg  460w,
-          ../img/aboutRestaraunt/about-restaurant-desk-2-2x.jpg 980w
-        "
-        sizes="200px, (min-width: 1024px) 350px, (min-width: 1280px) 460px"
-        src="../img/aboutRestaraunt/about-restaurant-mob-2-x.jpg"
-        alt="зал ресторану"
-      />
+      <picture>
+        <source
+          srcset="
+            ../img/aboutRestaraunt/about-restaurant-desk-2-x.jpg  1x,
+            ../img/aboutRestaraunt/about-restaurant-desk-2-2x.jpg 2x
+          "
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="
+            ../img/aboutRestaraunt/about-restaurant-tab-2-x.jpg  1x,
+            ../img/aboutRestaraunt/about-restaurant-tab-2-2x.jpg 2x
+          "
+          media="(min-width: 1024px)"
+        />
+        <source
+          srcset="
+            ../img/aboutRestaraunt/about-restaurant-mob-2-x.jpg  1x,
+            ../img/aboutRestaraunt/about-restaurant-mob-2-2x.jpg 2x
+          "
+          media="(min-width: 414px)"
+        />
+        <img
+          class="about-rest-img"
+          class="image"
+          src="../img/aboutRestaraunt/about-restaurant-mob-2-x.jpg"
+          alt="Фотографія залу ресторана"
+          sizes="(min-width: 1280px) 460px, (min-width: 1024px) 400px, (min-width: 414px) 244px, 80vw"
+        />
+      </picture>
     </div>
     <p class="rest-hall-text">
       Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
@@ -45,4 +79,33 @@
       consequat sunt nostrud amet.
     </p>
   </div>
+  <!-- <div class="slider-wrapper">
+    <div class="slider">
+      <div class="slider-item">
+        <img
+          src="../img/aboutRestaraunt/slider/dish1-mob-x.jpg"
+          alt="страва1"
+        />
+      </div>
+      <div class="slider-item">
+        <img
+          src="../img/aboutRestaraunt/slider/dish2-mob-x.jpg"
+          alt="страва2"
+        />
+      </div>
+      <div class="slider-item">
+        <img
+          src="../img/aboutRestaraunt/slider/dish3-mob-x.jpg"
+          alt="страва3"
+        />
+      </div>
+      <div class="slider-item">
+        <img
+          src="../img/aboutRestaraunt/slider/dish4-mob-x.jpg"
+          alt="страва4"
+        />
+      </div>
+    </div>
+    <div class="arrows"></div>
+  </div> -->
 </section>
