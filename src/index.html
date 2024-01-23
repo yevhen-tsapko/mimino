@@ -33,10 +33,13 @@
 
     <script type="text/javascript">
       $(document).ready(function () {
-        $('.your-class').slick({
+        $('.slider').slick({
           slidesToShow: 2,
           slidesToScroll: 1,
-          autoplay: true,
+          appendArrows: $('.slider - buttons - block'),
+          prevArrow: $('.prev-arrow'),
+          nextArrow: $('.next-arrow'),
+          // autoplay: true,
         });
       });
     </script>

@@ -7,7 +7,6 @@
   color: currentColor;
   border: 2px solid var(--darkSectionTitleColor);
   border-radius: 25px;
-  background-color: transparent;
 }
 .button:active,
 .button:hover,

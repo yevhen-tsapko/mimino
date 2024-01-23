@@ -2,6 +2,7 @@
   background-color: var(--lightBackgroundColor);
   position: relative;
   font-size: 12px;
+  overflow: hidden;
 }
 
 .about-rest-text-block {
@@ -29,18 +30,29 @@
   height: 322px;
   margin: 0 0 32px auto;
 }
-/* .about-rest-image {
-  display: block;
-} */
 .rest-hall-block {
   display: flex;
   gap: 20px;
+  margin-bottom: 32px;
 }
 .rest-hall-text {
   margin-top: 70px;
   width: 163px;
 }
-.slider {
+.slider-wrapper {
+  margin-left: 84px;
+  padding-bottom: 20px;
+  width: 515px;
+  overflow: hidden;
+}
+.slider-item {
+  margin-left: 25px;
+}
+.slider-buttons-block {
+  display: flex;
+  gap: 32px;
+  margin-left: 217px;
+  margin-top: 20px;
 }
 
 @media (min-width: 1024px) {
@@ -73,22 +85,32 @@
   }
   .rest-hall-block {
     gap: 48px;
+    padding-bottom: 262px;
   }
   .rest-hall-text {
     width: 312px;
     margin-top: 196px;
   }
-  /* .slider-wrapper {
+  .slider-wrapper {
     position: absolute;
-    left: 0;
+    right: 0;
     bottom: 0;
-    padding-left: 60px;
+    padding-right: 0;
     padding-bottom: 32px;
+    margin: 0;
+
+    width: 428px;
   }
-  .slider {
+  .slider-item {
+    margin-left: 40px;
+  }
+  .slider-buttons-block {
     display: flex;
-    gap: 40px;
-  } */
+    gap: 32px;
+    justify-content: end;
+    margin-top: 32px;
+    margin-left: 0;
+  }
 }
 @media (min-width: 1280px) {
   .container-about-rest {
@@ -120,5 +142,14 @@
   .rest-hall-text {
     width: 312px;
     margin-top: 186px;
+  }
+  .slider-wrapper {
+    padding-bottom: 50px;
+    padding-right: 85px;
+    width: 548px;
+  }
+
+  .slider-buttons-block {
+    margin-top: 36px;
   }
 }
