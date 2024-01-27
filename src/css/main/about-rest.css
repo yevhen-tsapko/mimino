@@ -48,9 +48,7 @@
 .slider-item {
   margin-left: 25px;
 }
-.slider-buttons-block {
-  display: flex;
-  gap: 32px;
+.container-about-rest .slider-buttons-block {
   margin-left: 217px;
   margin-top: 20px;
 }
@@ -104,12 +102,10 @@
   .slider-item {
     margin-left: 40px;
   }
-  .slider-buttons-block {
-    display: flex;
-    gap: 32px;
+  .container-about-rest .slider-buttons-block {
     justify-content: end;
     margin-top: 32px;
-    margin-left: 0;
+    margin-left: auto;
   }
 }
 @media (min-width: 1280px) {

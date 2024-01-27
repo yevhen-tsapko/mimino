@@ -11,10 +11,12 @@
 @import url('./component/title.css');
 @import url('./component/button-block.css');
 @import url('./component/social-media.css');
+@import url('./component/slider-button-block.css');
 @import url('./component/image-thumb.css');
 @import url('./common/header.css');
 @import url('./main/hero.css');
 @import url('./main/about-rest.css');
+@import url('./main/rest-details.css');
 
 :root {
   font-family: 'Montserrat', sans-serif;
