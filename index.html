@@ -12,9 +12,9 @@
     />
     
     
-    // Add the new slick-theme.css if you want the default styling
+
     
-    <link rel="stylesheet" href="/mimino/assets/index-a0e6df1b.css">
+    <link rel="stylesheet" href="/mimino/assets/index-b3bd86da.css">
   </head>
   <body>
     <header class="header">
@@ -208,7 +208,7 @@
     </p>
   </div>
   <div class="slider-wrapper">
-    <div class="slider">
+    <div class="slider-about-rest">
       <div class="slider-item">
         <picture>
           <source
@@ -339,18 +339,87 @@
       </div>
     </div>
     <div class="slider-buttons-block">
-      <button class="slider-button next-arrow">
+      <button class="next-arrow about-rest">
         <svg class="slider-arrow" width="32px" height="32px">
           <use href="../../img/symbol-defs.svg#arrow-left"></use>
         </svg>
       </button>
-      <button class="slider-button prev-arrow">
+      <button class="prev-arrow about-rest">
         <svg class="slider-arrow" width="32px" height="32px">
           <use href="../../img/symbol-defs.svg#arrow-right"></use>
         </svg>
       </button>
     </div>
   </div>
+</section>
+
+    <section class="container restaurant-details">
+  <div class="rest-ditails-title-block">
+    <h2 class="title">mimino</h2>
+    <h3>Ресторан</h3>
+    <p>
+      Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+      Velit officia consequat duis enim velit mollit.
+    </p>
+  </div>
+<div class="slider-and-buttons-wrap">
+    <div class="rest-details-slider-wrap">
+    <div class="slider-rest-details">
+     <div class="slider-item-rest-details">
+         <img                   class="image "
+         srcset="
+            ../img/restaurantDetails/slider/dish3-desk-x.jpg  1x,
+              ../img/restaurantDetails/slider/dish3-desk-2x.jpg 2x
+            "
+            src="../img/restaurantDetails/slider/dish3-desk-x.jpg"
+            alt="М'ясна страва"
+                     />
+            </div>
+         <div class="slider-item-rest-details">
+         <img                   class="image"
+         srcset="
+            ../img/restaurantDetails/slider/dish2-desk-x.jpg  1x,
+              ../img/restaurantDetails/slider/dish2-desk-2x.jpg 2x
+            "
+            src="../img/restaurantDetails/slider/dish2-desk-x.jpg"
+            alt="М'ясна страва"
+                     />
+            </div>
+             <div class="slider-item-rest-details">
+         <img                   class="image"
+         srcset="
+            ../img/restaurantDetails/slider/dish1-desk-x.jpg  1x,
+              ../img/restaurantDetails/slider/dish1-desk-2x.jpg 2x
+            "
+            src="../img/restaurantDetails/slider/dish1-desk-x.jpg"
+            alt="М'ясна страва"
+                     />
+            </div>
+      </div>
+ <div class="slider-buttons-block rest-details">
+  <button class="next-arrow rest-details">
+    <svg class="slider-arrow" width="32px" height="32px">
+      <use href="../../img/symbol-defs.svg#arrow-left"></use>
+    </svg>
+  </button>
+  <button class="prev-arrow rest-details">
+    <svg class="slider-arrow" width="32px" height="32px">
+      <use href="../../img/symbol-defs.svg#arrow-right"></use>
+    </svg>
+  </button>
+</div>
+    </div>
+      <div class="button-block rest-details-button-block">
+    <button class="button rest-details-button" type="button">
+      Забронювати столик
+    </button>
+    <button class="button rest-details-button" type="button">
+      Переглянути меню
+    </button>
+  </div>
+  </div>
+
+</div>
 </section>
 
 
@@ -364,8 +433,9 @@
       src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
     ></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript" src="js/slick.js"></script>
 
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
       $(document).ready(function () {
         $('.slider').slick({
           slidesToShow: 2,
@@ -373,9 +443,9 @@
           appendArrows: $('.slider - buttons - block'),
           prevArrow: $('.prev-arrow'),
           nextArrow: $('.next-arrow'),
-          // autoplay: true,
+          / autoplay: true,
         });
       });
-    </script>
+    </script> -->
   </body>
 </html>
