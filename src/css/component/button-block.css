@@ -2,11 +2,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 16px;
 }
 .button {
   color: currentColor;
   border: 2px solid var(--darkSectionTitleColor);
   border-radius: 25px;
+  padding-top: 14px;
+  padding-bottom: 14px;
 }
 .button:active,
 .button:hover,
