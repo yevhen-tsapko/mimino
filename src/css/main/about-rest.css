@@ -1,29 +1,19 @@
-.container-about-rest {
+.about-rest {
   background-color: var(--lightBackgroundColor);
   position: relative;
   font-size: 12px;
   overflow: hidden;
 }
-
 .about-rest-text-block {
   width: 258px;
   padding-top: 16px;
   padding-bottom: 28px;
 }
-.about-rest-slogan {
+.about-rest .section__sub-title {
   margin-bottom: 12px;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 20px;
-  font-weight: 400;
-  color: var(--lightSectionPreTitleColor);
 }
-.about-rest-title {
+.about-rest title {
   margin-bottom: 12px;
-  font-size: 40px;
-  color: var(--lightSectionTitleColor);
-}
-.about-rest-text {
-  color: var(--lightSectionTextColor1);
 }
 .image-thumb-rest-interier {
   width: 244px;
@@ -39,34 +29,34 @@
   margin-top: 70px;
   width: 163px;
 }
-.slider-wrapper {
+.about-rest .slider-wrapper {
   margin-left: 84px;
   padding-bottom: 20px;
   width: 515px;
   overflow: hidden;
 }
-.slider-item {
+.about-rest .slider-item {
   margin-left: 25px;
 }
-.container-about-rest .slider-buttons-block {
+.about-rest .slider-buttons-block {
   margin-left: 217px;
   margin-top: 20px;
 }
 
 @media (min-width: 1024px) {
-  .container-about-rest {
+  .about-rest {
     font-size: 16px;
   }
   .about-rest-text-block {
     width: 439px;
     padding-top: 120px;
-    padding-bottom: 142px;
+    padding-bottom: 158px;
   }
-  .about-rest-slogan {
+  .about-rest .section__sub-title {
     margin-bottom: 4px;
     font-size: 32px;
   }
-  .about-rest-title {
+  .about-rest .title {
     font-size: 64px;
     margin-bottom: 24px;
   }
@@ -74,6 +64,7 @@
     position: absolute;
     right: 112px;
     top: -32px;
+    z-index: 10;
     width: 400px;
     height: 524px;
     margin-bottom: 0;
@@ -89,36 +80,33 @@
     width: 312px;
     margin-top: 196px;
   }
-  .slider-wrapper {
+  .about-rest .slider-wrapper {
     position: absolute;
     right: 0;
     bottom: 0;
     padding-right: 0;
     padding-bottom: 32px;
     margin: 0;
-
     width: 428px;
   }
-  .slider-item {
+  .about-rest .slider-item {
     margin-left: 40px;
   }
-  .container-about-rest .slider-buttons-block {
+  .about-rest .slider-buttons-block {
     justify-content: end;
     margin-top: 32px;
     margin-left: auto;
   }
 }
 @media (min-width: 1280px) {
-  .container-about-rest {
+  .about-rest {
     font-size: 16px;
   }
 
-  .about-rest-slogan {
+  .about-rest .section__sub-title {
     margin-bottom: 4px;
-    font-size: 32px;
   }
-  .about-rest-title {
-    font-size: 64px;
+  .about-rest .title {
     margin-bottom: 24px;
   }
   .about-rest-text-block {

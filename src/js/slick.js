@@ -4,8 +4,8 @@ $(document).ready(function () {
     slidesToShow: 2,
     slidesToScroll: 1,
     appendArrows: $('.slider-about-rest'),
-    prevArrow: $('.prev-arrow.about-rest'),
-    nextArrow: $('.next-arrow.about-rest'),
+    prevArrow: $('.prev-arrow__about-rest'),
+    nextArrow: $('.next-arrow__about-rest'),
   });
 });
 $(document).ready(function () {
@@ -14,8 +14,18 @@ $(document).ready(function () {
     slidesToShow: 2,
     slidesToScroll: 1,
     appendArrows: $('.slider-rest-details'),
-    prevArrow: $('.prev-arrow.rest-details'),
-    nextArrow: $('.next-arrow.rest-details'),
+    prevArrow: $('.prev-arrow__rest-details'),
+    nextArrow: $('.next-arrow__rest-details'),
     variableWidth: true,
+  });
+});
+$(document).ready(function () {
+  $('.slider-about-hotel').slick({
+    infinite: true,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    appendArrows: $('.slider-about-hotel'),
+    prevArrow: $('.prev-arrow__about-hotel'),
+    nextArrow: $('.next-arrow__about-hotel'),
   });
 });
