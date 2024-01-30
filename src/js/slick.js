@@ -6,6 +6,7 @@ $(document).ready(function () {
     appendArrows: $('.slider-about-rest'),
     prevArrow: $('.prev-arrow__about-rest'),
     nextArrow: $('.next-arrow__about-rest'),
+    variableWidth: true,
   });
 });
 $(document).ready(function () {
@@ -27,5 +28,6 @@ $(document).ready(function () {
     appendArrows: $('.slider-about-hotel'),
     prevArrow: $('.prev-arrow__about-hotel'),
     nextArrow: $('.next-arrow__about-hotel'),
+    variableWidth: true,
   });
 });

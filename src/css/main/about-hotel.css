@@ -28,23 +28,19 @@
   display: flex;
   flex-direction: row-reverse;
   gap: 20px;
-  margin-bottom: 32px;
 }
 .hotel-hall-text {
   margin-top: 70px;
   width: 163px;
 }
 .about-hotel .slider-wrapper {
+  margin-top: 32px;
   margin-left: -200px;
   padding-bottom: 20px;
-  width: 540px;
 }
+
 .slider-about-hotel {
   padding-bottom: 20px;
-}
-.about-hotel .slider-item {
-  width: 245px;
-  margin-right: 20px;
 }
 .about-hotel .slider-buttons-block {
   margin-right: 286px;
@@ -80,31 +76,21 @@
     display: flex;
     flex-direction: row-reverse;
     gap: 48px;
-    margin-bottom: 0px;
-    padding-bottom: 262px;
   }
   .hotel-hall-text {
     margin-top: 196px;
     width: 312px;
   }
   .about-hotel .slider-wrapper {
-    position: absolute;
-    left: 26px;
-    bottom: 0;
-    padding: 0;
-    margin: 0;
+    margin: -28px auto 0 0;
     padding-bottom: 32px;
-    width: 428px;
   }
   .slider-about-hotel {
     padding-bottom: 32px;
   }
-  .about-hotel .slider-item {
-    margin-right: 40px;
-  }
+
   .about-hotel .slider-buttons-block {
-    margin: 0 0 0 20px;
-    /* margin-left: 20px; */
+    margin: 0;
   }
 }
 @media (min-width: 1280px) {
@@ -141,9 +127,10 @@
     padding-left: 85px;
     width: 548px;
   }
-
+  .slider-about-hotel {
+    padding-bottom: 40px;
+  }
   .about-hotel .slider-buttons-block {
-    /* margin-top: 36px; */
     margin-left: 0;
   }
 }
