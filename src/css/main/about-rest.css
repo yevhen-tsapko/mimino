@@ -23,7 +23,6 @@
 .rest-hall-block {
   display: flex;
   gap: 20px;
-  margin-bottom: 32px;
 }
 .rest-hall-text {
   margin-top: 70px;
@@ -31,13 +30,12 @@
 }
 .about-rest .slider-wrapper {
   margin-left: 84px;
+  margin-top: 32px;
   padding-bottom: 20px;
-  width: 515px;
-  overflow: hidden;
+  /* width: 515px; */
+  /* overflow: hidden; */
 }
-.about-rest .slider-item {
-  margin-left: 25px;
-}
+
 .about-rest .slider-buttons-block {
   margin-left: 217px;
   margin-top: 20px;
@@ -74,24 +72,17 @@
   }
   .rest-hall-block {
     gap: 48px;
-    padding-bottom: 262px;
   }
   .rest-hall-text {
     width: 312px;
     margin-top: 196px;
   }
   .about-rest .slider-wrapper {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    padding-right: 0;
     padding-bottom: 32px;
-    margin: 0;
-    width: 428px;
+    margin: -28px 0 0 auto;
+    /* width: 428px; */
   }
-  .about-rest .slider-item {
-    margin-left: 40px;
-  }
+
   .about-rest .slider-buttons-block {
     justify-content: end;
     margin-top: 32px;
@@ -127,10 +118,9 @@
     width: 312px;
     margin-top: 186px;
   }
-  .slider-wrapper {
+  .about-rest .slider-wrapper {
     padding-bottom: 50px;
-    padding-right: 85px;
-    width: 548px;
+    /* width: 548px; */
   }
 
   .slider-buttons-block {
