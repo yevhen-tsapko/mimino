@@ -1,4 +1,4 @@
-.restaurant-details {
+.hotel-details {
   overflow: hidden;
   padding-top: 24px;
   padding-bottom: 40px;
@@ -10,7 +10,7 @@
       rgba(0, 0, 0, 0.65) 0%,
       rgba(0, 0, 0, 0.65) 100%
     ),
-    url(../../img/restaurantDetails/main-rest-ditails-mob-x.jpg);
+    url(../../img/hotelDetails/main-hotel-ditails-mob-x.jpg);
 }
 @media (min-device-pixel-ratio: 2),
   (-webkit-min-device-pixel-ratio: 2),
@@ -22,46 +22,45 @@
         rgba(0, 0, 0, 0.65) 0%,
         rgba(0, 0, 0, 0.65) 100%
       ),
-      url(../../img/restaurantDetails/main-rest-ditails-mob-2x.jpg);
+      url(../../img/hotelDetails/main-hotel-ditails-mob-2x.jpg);
   }
 }
-.rest-ditails-title-block {
-  margin-left: auto;
+.hotel-ditails-title-block {
+  margin-right: auto;
+  margin-left: 17px;
   padding-bottom: 48px;
-  width: 259px;
+  width: 243px;
+  text-align: end;
   color: var(--darkSectionTitleColor);
 }
 
-.rest-ditails-title-block .title {
+.hotel-ditails-title-block .title {
   margin-bottom: 12px;
+  text-align: end;
 }
-.restaurant-details h3 {
+.hotel-details h3 {
   margin-bottom: 20px;
   font-size: 20px;
 }
-.restaurant-details p {
+.hotel-details p {
+  text-align: start;
   color: var(--darkSectionTextColor);
   font-size: 12px;
 }
-.rest-details-slider-wrap {
+.hotel-details-slider-wrap {
   width: 568px;
   margin-bottom: 32px;
   margin-left: 25px;
-  /* margin-right: 25px; */
 }
-/* .slider-item-rest-details {
-  margin-right: 20px;
-  max-width: 274px;
-  height: 270px;
-} */
-.slider-buttons-block__rest-details {
+
+.slider-buttons-block__hotel-details {
   display: flex;
   gap: 32px;
   fill: var(--darkSectionTitleColor);
   margin-right: auto;
   margin-top: 16px;
 }
-.rest-details-button-block {
+.hotel-details-button-block {
   color: currentColor;
   margin-left: auto;
   margin-right: auto;
@@ -71,18 +70,18 @@
   border-color: var(--darkSectionTitleColor);
 }
 
-.rest-details-button {
+.hotel-details-button {
   width: 100%;
 }
 @media (min-width: 1024px) {
-  .restaurant-details {
+  .hotel-details {
     padding-top: 48px;
     background-image: linear-gradient(
         to right,
         rgba(0, 0, 0, 0.65) 0%,
         rgba(0, 0, 0, 0.65) 100%
       ),
-      url(../../img/restaurantDetails/main-rest-ditails-tab-x.jpg);
+      url(../../img/hotelDetails/main-hotel-ditails-tab-x.jpg);
   }
   @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
@@ -94,52 +93,51 @@
           rgba(0, 0, 0, 0.65) 0%,
           rgba(0, 0, 0, 0.65) 100%
         ),
-        url(../../img/restaurantDetails/main-rest-ditails-tab-2x.jpg);
+        url(../../img/hotelDetails/main-hotel-ditails-tab-2x.jpg);
     }
   }
-  .rest-ditails-title-block {
+  .hotel-ditails-title-block {
     margin-left: 231px;
     padding-bottom: 40px;
-    width: 610px;
+    width: 549px;
   }
 
-  .rest-ditails-title-block .title {
+  .hotel-ditails-title-block .title {
     margin-bottom: 16px;
     font-size: 64px;
   }
-  .restaurant-details h3 {
+  .hotel-details h3 {
     margin-bottom: 8px;
     font-size: 24px;
   }
-  .restaurant-details p {
+  .hotel-details p {
     font-size: 16px;
   }
-  .slider-and-buttons-wrap {
+  /* .slider-and-buttons-wrap {
     display: flex;
-    gap: 29px;
-  }
-  .restaurant-details .slider-and-buttons-wrap {
     flex-direction: row-reverse;
-  }
-  .rest-details-slider-wrap {
+    gap: 29px;
+  } */
+  .hotel-details-slider-wrap {
     width: 662px;
     margin-bottom: 0;
     padding-left: 0;
+    margin-left: 0;
   }
-  /* .slider-item-rest-details {
+  /* .slider-item-hotel-details {
     margin-right: 34px;
     max-width: 270px;
   } */
-  .rest-details-button {
+  .hotel-details-button {
     width: 100%;
   }
 
-  .slider-buttons-block__rest-details {
-    justify-content: start;
+  .slider-buttons-block__hotel-details {
+    justify-content: end;
     margin-right: 0;
   }
 
-  .rest-details-button-block {
+  .hotel-details-button-block {
     margin-top: 148px;
     margin-left: 0;
     margin-right: 0;
@@ -148,13 +146,13 @@
   }
 }
 @media (min-width: 1280px) {
-  .restaurant-details {
+  .hotel-details {
     background-image: linear-gradient(
         to right,
         rgba(0, 0, 0, 0.65) 0%,
         rgba(0, 0, 0, 0.65) 100%
       ),
-      url(../../img/restaurantDetails/main-rest-ditails-desk-x.jpg);
+      url(../../img/hotelDetails/main-hotel-ditails-desk-x.jpg);
   }
   @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
@@ -166,20 +164,22 @@
           rgba(0, 0, 0, 0.65) 0%,
           rgba(0, 0, 0, 0.65) 100%
         ),
-        url(../../img/restaurantDetails/main-rest-ditails-desk-2x.jpg);
+        url(../../img/hotelDetails/main-hotel-ditails-desk-2x.jpg);
     }
   }
-  .rest-ditails-title-block {
+  .hotel-ditails-title-block {
     margin-left: 191px;
+    width: 595px;
   }
 
   .slider-and-buttons-wrap {
     gap: 32px;
   }
-  .rest-details-slider-wrap {
+  .hotel-details-slider-wrap {
+    margin-left: -33px;
     width: 874px;
   }
-  /* .slider-item-rest-details {
+  /* .slider-item-hotel-details {
     margin-right: 86px;
   } */
 }

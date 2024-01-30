@@ -18,6 +18,7 @@
 @import url('./main/about-rest.css');
 @import url('./main/rest-details.css');
 @import url('./main/about-hotel.css');
+@import url('./main/hotel-details.css');
 
 :root {
   font-family: 'Montserrat', sans-serif;

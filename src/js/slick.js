@@ -31,3 +31,14 @@ $(document).ready(function () {
     variableWidth: true,
   });
 });
+$(document).ready(function () {
+  $('.slider-hotel-details').slick({
+    infinite: true,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    appendArrows: $('.slider-hotel-details'),
+    prevArrow: $('.prev-arrow__hotel-details'),
+    nextArrow: $('.next-arrow__hotel-details'),
+    variableWidth: true,
+  });
+});
