@@ -122,7 +122,8 @@
     flex-direction: row-reverse;
   }
   .rest-details-slider-wrap {
-    width: 662px;
+    /* width: 662px; */
+    width: 724px;
     margin-bottom: 0;
     padding-left: 0;
   }
@@ -178,6 +179,7 @@
   }
   .rest-details-slider-wrap {
     width: 874px;
+    margin-right: -33px;
   }
   /* .slider-item-rest-details {
     margin-right: 86px;

@@ -1,3 +1,7 @@
+.social-media {
+  display: flex;
+  gap: 20px;
+}
 .social-icon {
   fill: var(--buttonTextColor);
 }

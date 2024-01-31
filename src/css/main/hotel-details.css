@@ -113,21 +113,17 @@
   .hotel-details p {
     font-size: 16px;
   }
-  /* .slider-and-buttons-wrap {
-    display: flex;
-    flex-direction: row-reverse;
-    gap: 29px;
-  } */
+
   .hotel-details-slider-wrap {
-    width: 662px;
+    /* flex: 1 664px; */
+    width: 664px;
+    /* width: 764px; */
+
     margin-bottom: 0;
     padding-left: 0;
     margin-left: 0;
   }
-  /* .slider-item-hotel-details {
-    margin-right: 34px;
-    max-width: 270px;
-  } */
+
   .hotel-details-button {
     width: 100%;
   }
@@ -179,7 +175,4 @@
     margin-left: -33px;
     width: 874px;
   }
-  /* .slider-item-hotel-details {
-    margin-right: 86px;
-  } */
 }
