@@ -16,7 +16,7 @@
   (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
-  .hero-container {
+  .hotel-ditails {
     background-image: linear-gradient(
         to right,
         rgba(0, 0, 0, 0.65) 0%,
@@ -87,7 +87,7 @@
     (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .hero-container {
+    .hotel-details {
       background-image: linear-gradient(
           to right,
           rgba(0, 0, 0, 0.65) 0%,
@@ -115,10 +115,7 @@
   }
 
   .hotel-details-slider-wrap {
-    /* flex: 1 664px; */
     width: 664px;
-    /* width: 764px; */
-
     margin-bottom: 0;
     padding-left: 0;
     margin-left: 0;
@@ -154,7 +151,7 @@
     (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .hero-container {
+    .hotel-details {
       background-image: linear-gradient(
           to right,
           rgba(0, 0, 0, 0.65) 0%,
