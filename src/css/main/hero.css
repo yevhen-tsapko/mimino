@@ -33,7 +33,7 @@
   display: flex;
   gap: 8px;
   align-items: center;
-  padding: 8px 3px;
+  padding: 8px;
   color: var(--adressTextcolor);
   border: 1px solid var(--buttonTextColor);
   border-radius: 2px;
@@ -44,7 +44,7 @@
   color: var(--darkSectionTitleColor);
   border-color: var(--darkSectionTitleColor);
 }
-.hero-main-adress__icon {
+.adress__icon {
   fill: var(--buttonTextColor);
 }
 .hero-title-block {

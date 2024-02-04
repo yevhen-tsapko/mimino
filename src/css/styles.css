@@ -19,7 +19,8 @@
 @import url('./main/rest-details.css');
 @import url('./main/about-hotel.css');
 @import url('./main/hotel-details.css');
-@import url('./main/footer.css');
+@import url('./main/contacts-section.css');
+@import url('./common/footer.css');
 
 :root {
   box-sizing: border-box;
