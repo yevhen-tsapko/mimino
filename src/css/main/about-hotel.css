@@ -49,6 +49,7 @@
 
 @media (min-width: 1024px) {
   .about-hotel {
+    overflow: visible;
     position: relative;
     font-size: 16px;
   }

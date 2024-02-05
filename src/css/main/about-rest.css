@@ -43,6 +43,7 @@
 
 @media (min-width: 1024px) {
   .about-rest {
+    overflow: visible;
     font-size: 16px;
   }
   .about-rest-text-block {
