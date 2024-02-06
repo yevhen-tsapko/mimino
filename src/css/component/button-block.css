@@ -5,6 +5,7 @@
   gap: 16px;
 }
 .button {
+  display: block;
   color: var(--buttonTextColor);
   border: 2px solid var(--darkSectionTitleColor);
   border-radius: 25px;

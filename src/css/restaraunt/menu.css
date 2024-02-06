@@ -1,7 +1,7 @@
 .menu-section {
   background-color: var(--lightBackgroundColor);
   color: var(--buttonDarkTextColor);
-  padding-inline-end: 32px;
+  padding-top: 32px;
   padding-bottom: 32px;
 }
 .menu-title {
@@ -70,7 +70,7 @@ table caption {
     flex-direction: column;
     flex-wrap: wrap;
     align-content: space-between;
-    height: 630px;
+    height: 590px;
   }
   table {
     width: 412px;
@@ -89,6 +89,9 @@ table caption {
 @media (min-width: 1280px) {
   table {
     width: 485px;
+  }
+  .tables-wrap {
+    height: 550px;
   }
   .collumn2,
   .collumn3 {
