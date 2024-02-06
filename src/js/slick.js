@@ -42,3 +42,12 @@ $(document).ready(function () {
     variableWidth: true,
   });
 });
+$('.slider-about-kitchen').slick({
+  infinite: true,
+  slidesToShow: 2,
+  slidesToScroll: 1,
+  appendArrows: $('.slider-about-kitchen'),
+  prevArrow: $('.prev-arrow__about-kitchen'),
+  nextArrow: $('.next-arrow__about-kitchen'),
+  variableWidth: true,
+});

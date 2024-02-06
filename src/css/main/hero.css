@@ -87,7 +87,27 @@
   .hero-container {
     padding-top: 188px;
     padding-bottom: 64px;
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.65) 0%,
+        rgba(0, 0, 0, 0.65) 100%
+      ),
+      url(../../img/index/index-hero-tab_x.jpg);
   }
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-container {
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.65) 0%,
+          rgba(0, 0, 0, 0.65) 100%
+        ),
+        url(../../img/index/index-hero-tab_2x.jpg);
+    }
+  }
+
   .adress-map-link {
     top: auto;
     right: auto;
@@ -124,7 +144,27 @@
   .hero-container {
     padding-top: 164px;
     padding-bottom: 64px;
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.65) 0%,
+        rgba(0, 0, 0, 0.65) 100%
+      ),
+      url(../../img/index/index-hero-desk_x.jpg);
   }
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-container {
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.65) 0%,
+          rgba(0, 0, 0, 0.65) 100%
+        ),
+        url(../../img/index/index-hero-desk_2x.jpg);
+    }
+  }
+
   .adress-map-link {
     left: 85px;
     bottom: 64px;

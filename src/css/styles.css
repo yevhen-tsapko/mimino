@@ -21,6 +21,7 @@
 @import url('./main/hotel-details.css');
 @import url('./main/contacts-section.css');
 @import url('./common/footer.css');
+@import url('./restaraunt/hero.css');
 
 :root {
   box-sizing: border-box;
