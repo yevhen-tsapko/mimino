@@ -22,6 +22,7 @@
 @import url('./main/contacts-section.css');
 @import url('./common/footer.css');
 @import url('./restaraunt/hero.css');
+@import url('./restaraunt/menu.css');
 
 :root {
   box-sizing: border-box;

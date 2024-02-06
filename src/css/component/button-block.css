@@ -5,11 +5,15 @@
   gap: 16px;
 }
 .button {
-  color: currentColor;
+  color: var(--buttonTextColor);
   border: 2px solid var(--darkSectionTitleColor);
   border-radius: 25px;
+  width: 236px;
   padding-top: 14px;
   padding-bottom: 14px;
+  background-color: var(--buttonDarkTextColor);
+  text-align: center;
+  transition: all var(--transition);
 }
 .button:active,
 .button:hover,

@@ -73,8 +73,7 @@
   margin: 0 auto 56px auto;
 }
 .hero-button {
-  padding-left: 24px;
-  padding-right: 24px;
+  background: none;
 }
 .social-media-hero {
   position: absolute;
@@ -186,6 +185,7 @@
   .hero-button {
     padding-left: 35px;
     padding-right: 35px;
+    min-width: 254px;
   }
   .social-media-hero {
     display: none;

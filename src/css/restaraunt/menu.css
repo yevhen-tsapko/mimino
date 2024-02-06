@@ -4,7 +4,7 @@
   padding-inline-end: 32px;
   padding-bottom: 32px;
 }
-.title-menu {
+.menu-title {
   text-transform: uppercase;
   font-family: 'Times New Roman';
   font-weight: 700;
@@ -50,19 +50,10 @@ table caption {
   text-align: right;
   font-weight: 700;
 }
-.food-order-button {
-  display: block;
-  @extend .disabled-button;
+.food-order__button {
   margin-top: 32px;
   margin-left: auto;
   margin-right: auto;
-  transition: all var(--transition);
-
-  .food-order-button:hover,
-  .food-order-button:focus,
-  .food-order-button:active {
-    @extend .hover-and-clik-button;
-  }
 }
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .expand {
