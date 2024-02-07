@@ -1,15 +1,24 @@
-.image-thumb {
+.image-thumb1 {
+  width: 244px;
+  height: 322px;
+}
+.image-thumb2 {
   width: 200px;
   height: 278px;
 }
 @media (min-width: 1024px) {
-  .image-thumb {
+  .image-thumb1 {
+    width: 400px;
+    height: 524px;
+  }
+  .image-thumb2 {
     width: 350px;
     height: 500px;
   }
 }
 @media (min-width: 1280px) {
-  .image-thumb {
+  .image-thumb1,
+  .image-thumb2 {
     width: 460px;
     height: 574px;
   }

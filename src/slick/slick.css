@@ -104,6 +104,10 @@
 .double-lux .slider-wrapper {
   width: 396px;
 }
+.double .slider-item {
+  width: 194px;
+  height: 194px;
+}
 .double-lux .slick-track {
   gap: 16px;
 }
@@ -145,5 +149,9 @@
   .restaurant-details .slick-track,
   .hotel-details .slick-track {
     gap: 86px;
+  }
+  .double .slider-item {
+    width: 254px;
+    height: 254px;
   }
 }
