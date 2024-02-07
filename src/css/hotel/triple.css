@@ -1,0 +1,56 @@
+.triple {
+  background-color: var(--secondlightBackgroundColor);
+}
+.triple .about-text-block__hotel {
+  margin-right: 0;
+  margin-left: auto;
+}
+.triple .title,
+.triple .section__sub-title {
+  text-align: end;
+}
+.triple .section__text {
+  padding-right: 62px;
+}
+.triple .image-thumb {
+  margin-left: 0;
+}
+
+.triple .slider-wrapper {
+  margin-left: 115px;
+  margin-top: 32px;
+  padding-bottom: 20px;
+}
+
+.triple .slider-buttons-block {
+  justify-content: start;
+  margin-left: 205px;
+  margin-top: 20px;
+}
+@media (min-width: 1024px) {
+  .about-text-block__hotel .section__text {
+    padding-right: 0;
+  }
+  .triple .image-thumb-rest-interier {
+    left: 112px;
+  }
+  .triple .slider-buttons-block {
+    margin-top: 32px;
+    margin-left: auto;
+  }
+  .triple .slider-wrapper {
+    margin-right: 0;
+    margin-left: auto;
+  }
+  .button-block__triple {
+    position: absolute;
+    left: 47px;
+    bottom: 148px;
+  }
+}
+@media (min-width: 1280px) {
+  .button-block__triple {
+    left: 85px;
+    bottom: 182px;
+  }
+}

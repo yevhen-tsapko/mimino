@@ -84,12 +84,6 @@
   }
 }
 @media (min-width: 1280px) {
-  .double-lux {
-    position: relative;
-    overflow: visible;
-    padding-bottom: 40px;
-    font-size: 16px;
-  }
   .about-text-block__hotel {
     width: 509px;
     padding-top: 72px;
@@ -108,25 +102,6 @@
   }
   .about-text-block__hotel .section__text {
     padding-right: 105px;
-  }
-  .image-thumb-rest-interier {
-    position: absolute;
-    right: 112px;
-    top: -32px;
-    z-index: 10;
-    width: 400px;
-    height: 524px;
-    margin-bottom: 0;
-  }
-
-  .double-lux .slider-wrapper {
-    padding-bottom: 0;
-    margin: 0;
-  }
-
-  .double-lux .slider-buttons-block {
-    margin-top: 32px;
-    margin-left: auto;
   }
   .button-block__double-lux {
     right: 85px;

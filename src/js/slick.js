@@ -62,3 +62,25 @@ $(document).ready(function () {
     variableWidth: true,
   });
 });
+$(document).ready(function () {
+  $('.slider-triple').slick({
+    infinite: true,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    appendArrows: $('.slider-triple'),
+    prevArrow: $('.prev-arrow__triple'),
+    nextArrow: $('.next-arrow__triple'),
+    variableWidth: true,
+  });
+});
+$(document).ready(function () {
+  $('.slider-double').slick({
+    infinite: true,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    appendArrows: $('.slider-double'),
+    prevArrow: $('.prev-arrow__double'),
+    nextArrow: $('.next-arrow__double'),
+    variableWidth: true,
+  });
+});
