@@ -23,6 +23,8 @@
 @import url('./common/footer.css');
 @import url('./restaraunt/hero.css');
 @import url('./restaraunt/menu.css');
+@import url('./hotel/hero.css');
+@import url('./hotel/double-lux.css');
 
 :root {
   box-sizing: border-box;

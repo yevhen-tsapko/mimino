@@ -1,7 +1,4 @@
 .slider-buttons-block {
   display: flex;
   gap: 32px;
-  width: 37px;
-}
-@media (min-width: 1024px) {
 }

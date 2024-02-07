@@ -1,0 +1,135 @@
+.double-lux {
+  overflow: hidden;
+  padding-bottom: 32px;
+}
+.about-text-block__hotel {
+  width: 340px;
+}
+.about-text-block__hotel h2 {
+  margin-bottom: 32px;
+}
+.about-text-block__hotel h3 {
+  margin-bottom: 12px;
+  font-family: Times New Roman;
+  color: var(--buttonDarkTextColor);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+}
+.about-text-block__hotel .section__text {
+  padding-right: 92px;
+}
+
+.double-lux .slider-wrapper {
+  margin-left: -130px;
+  margin-top: 32px;
+  padding-bottom: 20px;
+}
+
+.double-lux .slider-buttons-block {
+  justify-content: end;
+  margin-top: 20px;
+}
+
+@media (min-width: 1024px) {
+  .double-lux {
+    position: relative;
+    overflow: visible;
+    padding-bottom: 40px;
+    font-size: 16px;
+  }
+  .about-text-block__hotel {
+    width: 439px;
+    padding-top: 64px;
+    padding-bottom: 174px;
+  }
+  .double-lux .section__sub-title {
+    font-size: 32px;
+  }
+  .double-lux .title {
+    font-size: 64px;
+    margin-bottom: 62px;
+  }
+  .about-text-block__hotel h3 {
+    margin-bottom: 16px;
+  }
+  .about-text-block__hotel .section__text {
+    padding-right: 0;
+  }
+  .image-thumb-rest-interier {
+    position: absolute;
+    right: 112px;
+    top: -32px;
+    z-index: 10;
+    width: 400px;
+    height: 524px;
+    margin-bottom: 0;
+  }
+
+  .double-lux .slider-wrapper {
+    padding-bottom: 0;
+    margin: 0;
+  }
+
+  .double-lux .slider-buttons-block {
+    margin-top: 32px;
+    margin-left: auto;
+  }
+  .button-block__double-lux {
+    position: absolute;
+    right: 47px;
+    bottom: 148px;
+    align-items: flex-end;
+  }
+}
+@media (min-width: 1280px) {
+  .double-lux {
+    position: relative;
+    overflow: visible;
+    padding-bottom: 40px;
+    font-size: 16px;
+  }
+  .about-text-block__hotel {
+    width: 509px;
+    padding-top: 72px;
+    padding-bottom: 188px;
+  }
+  .double-lux .section__sub-title {
+    font-size: 32px;
+  }
+  .double-lux .title {
+    font-size: 64px;
+    margin-bottom: 72px;
+  }
+  .about-text-block__hotel h3 {
+    font-size: 36px;
+    margin-bottom: 24px;
+  }
+  .about-text-block__hotel .section__text {
+    padding-right: 105px;
+  }
+  .image-thumb-rest-interier {
+    position: absolute;
+    right: 112px;
+    top: -32px;
+    z-index: 10;
+    width: 400px;
+    height: 524px;
+    margin-bottom: 0;
+  }
+
+  .double-lux .slider-wrapper {
+    padding-bottom: 0;
+    margin: 0;
+  }
+
+  .double-lux .slider-buttons-block {
+    margin-top: 32px;
+    margin-left: auto;
+  }
+  .button-block__double-lux {
+    right: 85px;
+    bottom: 182px;
+  }
+}

@@ -101,6 +101,12 @@
   display: none;
 }
 /* sliders in sections */
+.double-lux .slider-wrapper {
+  width: 396px;
+}
+.double-lux .slick-track {
+  gap: 16px;
+}
 .about-rest .slider-wrapper,
 .about-hotel .slider-wrapper {
   width: 515px;
@@ -115,10 +121,12 @@
 }
 
 @media (min-width: 1024px) {
+  .double-lux .slick-track,
   .about-rest .slick-track,
   .about-hotel .slick-track {
     gap: 40px;
   }
+  .double-lux .slider-wrapper,
   .about-rest .slider-wrapper,
   .about-hotel .slider-wrapper {
     width: 428px;
@@ -129,6 +137,7 @@
   }
 }
 @media (min-width: 1280px) {
+  .double-lux .slider-wrapper,
   .about-rest .slider-wrapper,
   .about-hotel .slider-wrapper {
     width: 548px;

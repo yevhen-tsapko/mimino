@@ -51,3 +51,14 @@ $('.slider-about-kitchen').slick({
   nextArrow: $('.next-arrow__about-kitchen'),
   variableWidth: true,
 });
+$(document).ready(function () {
+  $('.slider-double-lux').slick({
+    infinite: true,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    appendArrows: $('.slider-double-lux'),
+    prevArrow: $('.prev-arrow__double-lux'),
+    nextArrow: $('.next-arrow__double-lux'),
+    variableWidth: true,
+  });
+});

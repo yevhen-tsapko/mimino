@@ -4,7 +4,7 @@
   font-size: 12px;
   overflow: hidden;
 }
-.about-rest-text-block {
+.about-text-block {
   width: 258px;
   padding-top: 16px;
   padding-bottom: 28px;
@@ -32,8 +32,6 @@
   margin-left: 84px;
   margin-top: 32px;
   padding-bottom: 20px;
-  /* width: 515px; */
-  /* overflow: hidden; */
 }
 
 .about-rest .slider-buttons-block {
@@ -46,7 +44,7 @@
     overflow: visible;
     font-size: 16px;
   }
-  .about-rest-text-block {
+  .about-text-block {
     width: 439px;
     padding-top: 120px;
     padding-bottom: 158px;
@@ -101,7 +99,7 @@
   .about-rest .title {
     margin-bottom: 24px;
   }
-  .about-rest-text-block {
+  .about-text-block {
     width: 518px;
     padding-top: 120px;
     padding-bottom: 162px;

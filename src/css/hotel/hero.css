@@ -1,0 +1,78 @@
+.hero-container__hotel {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.65) 0%,
+      rgba(0, 0, 0, 0.65) 100%
+    ),
+    url(../../img/hotel/hotel-hero-mob_x.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-container__hotel {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.65) 0%,
+        rgba(0, 0, 0, 0.65) 100%
+      ),
+      url(../../img/hotel/hotel-hero-mob_2x.jpg);
+  }
+}
+.hero-title-block__hotel {
+  margin-bottom: 178px;
+}
+@media (min-width: 1024px) {
+  .hero-container__hotel {
+    padding-top: 188px;
+    padding-bottom: 64px;
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.65) 0%,
+        rgba(0, 0, 0, 0.65) 100%
+      ),
+      url(../../img/hotel/hotel-hero-tab_x.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-container__hotel {
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.65) 0%,
+          rgba(0, 0, 0, 0.65) 100%
+        ),
+        url(../../img/hotel/hotel-hero-tab_2x.jpg);
+    }
+  }
+  .hero-title-block__hotel {
+    margin-bottom: 228px;
+  }
+}
+@media (min-width: 1280px) {
+  .hero-container__hotel {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.65) 0%,
+        rgba(0, 0, 0, 0.65) 100%
+      ),
+      url(../../img/hotel/hotel-hero-desk_x.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-container__hotel {
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.65) 0%,
+          rgba(0, 0, 0, 0.65) 100%
+        ),
+        url(../../img/hotel/hotel-hero-desk_2x.jpg);
+    }
+  }
+}
