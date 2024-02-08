@@ -1,4 +1,6 @@
-.double-lux {
+.double-lux,
+.double,
+.triple {
   overflow: hidden;
   padding-bottom: 32px;
 }
@@ -21,7 +23,7 @@
   padding-right: 92px;
 }
 
-.double-lux .slider-wrapper {
+.about.double-lux .slider-wrapper {
   margin-left: -130px;
   margin-top: 32px;
   padding-bottom: 20px;
@@ -33,7 +35,9 @@
 }
 
 @media (min-width: 1024px) {
-  .double-lux {
+  .double-lux,
+  .double,
+  .triple {
     position: relative;
     overflow: visible;
     padding-bottom: 40px;
@@ -57,25 +61,16 @@
   .about-text-block__hotel .section__text {
     padding-right: 0;
   }
-  .image-thumb-rest-interier {
-    position: absolute;
-    right: 112px;
-    top: -32px;
-    z-index: 10;
-    width: 400px;
-    height: 524px;
-    margin-bottom: 0;
-  }
 
-  .double-lux .slider-wrapper {
+  .about.double-lux .slider-wrapper {
     padding-bottom: 0;
     margin: 0;
   }
 
-  .double-lux .slider-buttons-block {
+  /* .double-lux .slider-buttons-block {
     margin-top: 32px;
     margin-left: auto;
-  }
+  } */
   .button-block__double-lux {
     position: absolute;
     right: 47px;
@@ -102,6 +97,9 @@
   }
   .about-text-block__hotel .section__text {
     padding-right: 105px;
+  }
+  .about.double-lux .slider-wrapper {
+    width: 548px;
   }
   .button-block__double-lux {
     right: 85px;
