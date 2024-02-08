@@ -101,22 +101,23 @@
   display: none;
 }
 /* sliders in sections */
-.double-lux .slider-wrapper {
+.triple.double-lux .slick-track,
+.about.double-lux .slider-wrapper {
   width: 396px;
 }
 .double .slider-item {
   width: 194px;
   height: 194px;
 }
-.double-lux .slick-track {
+.triple.double-lux .slick-track,
+.about.double-lux .slick-track {
   gap: 16px;
 }
-.about-rest .slider-wrapper,
-.about-hotel .slider-wrapper {
+.slider-wrapper {
   width: 515px;
 }
-.about-rest .slick-track,
-.about-hotel .slick-track {
+
+.slick-track {
   gap: 25px;
 }
 .restaurant-details .slick-track,
@@ -125,14 +126,11 @@
 }
 
 @media (min-width: 1024px) {
-  .double-lux .slick-track,
-  .about-rest .slick-track,
-  .about-hotel .slick-track {
+  .slick-track {
     gap: 40px;
   }
-  .double-lux .slider-wrapper,
-  .about-rest .slider-wrapper,
-  .about-hotel .slider-wrapper {
+
+  .slider-wrapper {
     width: 428px;
   }
   .restaurant-details .slick-track,
@@ -141,9 +139,11 @@
   }
 }
 @media (min-width: 1280px) {
-  .double-lux .slider-wrapper,
-  .about-rest .slider-wrapper,
-  .about-hotel .slider-wrapper {
+  .triple.double-lux .slick-track,
+  .about.double-lux .slick-track {
+    gap: 40px;
+  }
+  .slider-wrapper {
     width: 548px;
   }
   .restaurant-details .slick-track,

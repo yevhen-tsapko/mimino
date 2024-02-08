@@ -14,6 +14,7 @@
 }
 .triple .image-thumb {
   margin-left: 0;
+  margin-right: auto;
 }
 
 .triple .slider-wrapper {
@@ -31,8 +32,9 @@
   .about-text-block__hotel .section__text {
     padding-right: 0;
   }
-  .triple .image-thumb-rest-interier {
+  .triple .image-thumb1 {
     left: 112px;
+    right: auto;
   }
   .triple .slider-buttons-block {
     margin-top: 32px;
@@ -41,6 +43,7 @@
   .triple .slider-wrapper {
     margin-right: 0;
     margin-left: auto;
+    width: 414px;
   }
   .button-block__triple {
     position: absolute;
@@ -52,5 +55,10 @@
   .button-block__triple {
     left: 85px;
     bottom: 182px;
+  }
+  .triple .slider-wrapper {
+    margin-right: 0;
+    margin-left: auto;
+    width: 548px;
   }
 }

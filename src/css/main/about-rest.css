@@ -1,4 +1,4 @@
-.about-rest {
+.about {
   background-color: var(--lightBackgroundColor);
   position: relative;
   font-size: 12px;
@@ -9,94 +9,83 @@
   padding-top: 16px;
   padding-bottom: 28px;
 }
-.about-rest .section__sub-title {
+.about .section__sub-title {
   margin-bottom: 12px;
 }
-.about-rest title {
-  margin-bottom: 12px;
+.about title {
+  margin-bottom: 14px;
 }
-.image-thumb-rest-interier {
-  width: 244px;
-  height: 322px;
+.about .image-thumb1 {
   margin: 0 0 32px auto;
 }
-.rest-hall-block {
+.about__description {
   display: flex;
   gap: 20px;
 }
-.rest-hall-text {
+.description__text {
   margin-top: 70px;
   width: 163px;
 }
-.about-rest .slider-wrapper {
+.about .slider-wrapper {
   margin-left: 84px;
   margin-top: 32px;
   padding-bottom: 20px;
 }
 
-.about-rest .slider-buttons-block {
+.about .slider-buttons-block {
   margin-left: 217px;
   margin-top: 20px;
 }
 
 @media (min-width: 1024px) {
-  .about-rest {
+  .about {
+    position: relative;
     overflow: visible;
     font-size: 16px;
   }
   .about-text-block {
     width: 439px;
     padding-top: 120px;
-    padding-bottom: 158px;
+    padding-bottom: 142px;
   }
-  .about-rest .section__sub-title {
+  .about .section__sub-title {
     margin-bottom: 4px;
     font-size: 32px;
   }
-  .about-rest .title {
+  .about .title {
     font-size: 64px;
     margin-bottom: 24px;
   }
-  .image-thumb-rest-interier {
+  .image-thumb1 {
     position: absolute;
     right: 112px;
     top: -32px;
     z-index: 10;
-    width: 400px;
-    height: 524px;
     margin-bottom: 0;
   }
-  .about-rest-img {
-    height: 100%;
-  }
-  .rest-hall-block {
+  .about__description {
     gap: 48px;
   }
-  .rest-hall-text {
+  .description__text {
     width: 312px;
     margin-top: 196px;
   }
-  .about-rest .slider-wrapper {
+  .about .slider-wrapper {
     padding-bottom: 32px;
     margin: -28px 0 0 auto;
-    /* width: 428px; */
   }
 
-  .about-rest .slider-buttons-block {
+  .about .slider-buttons-block {
     justify-content: end;
     margin-top: 32px;
     margin-left: auto;
   }
 }
 @media (min-width: 1280px) {
-  .about-rest {
+  .about {
     font-size: 16px;
   }
-
-  .about-rest .section__sub-title {
-    margin-bottom: 4px;
-  }
-  .about-rest .title {
+  .about .title {
     margin-bottom: 24px;
   }
   .about-text-block {
@@ -104,24 +93,19 @@
     padding-top: 120px;
     padding-bottom: 162px;
   }
-  .rest-hall-block {
+  .about__description {
     gap: 48px;
   }
-  .image-thumb-rest-interier {
+  .image-thumb1 {
     right: 180px;
     top: -33px;
-    width: 460px;
-    height: 574px;
   }
-  .rest-hall-text {
+  .description__text {
     width: 312px;
-    margin-top: 186px;
   }
-  .about-rest .slider-wrapper {
+  .about .slider-wrapper {
     padding-bottom: 50px;
-    /* width: 548px; */
   }
-
   .slider-buttons-block {
     margin-top: 36px;
   }
