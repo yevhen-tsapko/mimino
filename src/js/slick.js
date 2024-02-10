@@ -86,3 +86,14 @@ $(document).ready(function () {
     variableWidth: true,
   });
 });
+$(document).ready(function () {
+  $('.hero-slider').slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    appendArrows: $('.slider-double'),
+    prevArrow: $('.prev-arrow__hero'),
+    nextArrow: $('.next-arrow__hero'),
+    variableWidth: true,
+  });
+});
