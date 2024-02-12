@@ -27,6 +27,7 @@
 @import url('./hotel/double-lux.css');
 @import url('./hotel/triple.css');
 @import url('./hotelRoom/hotel-room.css');
+@import url('./hotelRoom/description.css');
 
 :root {
   box-sizing: border-box;
