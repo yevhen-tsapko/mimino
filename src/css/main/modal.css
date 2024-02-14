@@ -1,0 +1,84 @@
+.modal__overlay {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.table-order {
+}
+.modal {
+  width: 414px;
+  /* height: 780px; */
+  padding: 0 15px 60px;
+  background-color: var(--lightBackgroundColor);
+}
+.modal__room-order {
+}
+.close-button {
+  display: block;
+  margin: 0 0 4px auto;
+  padding: 16px 1px 16px 16px;
+}
+.modal__title {
+  margin-bottom: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--buttonDarkTextColor);
+  font-family: Times New Roman;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.05em;
+}
+.modal__form {
+}
+.modal__label {
+  display: block;
+  margin-left: 12px;
+}
+.modal__select,
+.modal__input {
+  display: block;
+  width: 100%;
+  padding: 17px 12px;
+  margin-bottom: 8px;
+  border: 1px solid var(--buttonDisabledTextColor);
+  font-family: Times New Roman;
+  color: #808080;
+
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+}
+.modal__select {
+  appearance: none;
+}
+.modal__item {
+  position: relative;
+  margin-bottom: 20px;
+}
+.modal__item svg {
+  position: absolute;
+  top: 14px;
+  right: 12px;
+  fill: var(--buttonDisabledTextColor);
+  pointer-events: none;
+}
+.modal__button {
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 40px;
+  color: var(--darkSectionTitleColor);
+  background-color: var(--buttonDarkTextColor);
+  border: 1px solid var(--buttonTextColor);
+  width: 100%;
+  text-align: center;
+}

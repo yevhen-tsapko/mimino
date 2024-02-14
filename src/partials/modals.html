@@ -1,0 +1,121 @@
+<div class="modal__overlay">
+  <div class="modal modal__room-order">
+    <button class="close-button">
+      <svg width="24px" height="24px">
+        <use href="img/symbol-defs.svg#cross"></use>
+      </svg>
+    </button>
+    <h1 class="modal__title">ЗАБРОНЮВАТИ СТОЛИК</h1>
+    <form class="modal__form">
+      <ul>
+        <li class="modal__item">
+          <input class="modal__input" id="name" placeholder="Ваше ім’я" />
+          <label class="modal__label" for="name">
+            На кого забронювати номер?
+          </label>
+        </li>
+        <li class="modal__item">
+          <input
+            class="modal__input"
+            name="tel"
+            id="phone"
+            placeholder="+38 (___) ___-__-__"
+          />
+          <label class="modal__label" for="phone"> Номер телефону </label>
+        </li>
+        <li class="modal__item">
+          <select class="modal__select" name="room">
+            <option value="value1">1</option>
+            <option value="value2" selected>2</option>
+            <option value="value3">3</option>
+            <option value="value4">Більше 3</option>
+          </select>
+          <svg width="24px" height="24px">
+            <use href="img/symbol-defs.svg#arrow-down"></use>
+          </svg>
+          <label class="modal__label" for="room">
+            Столик на яку кількість осіб?
+          </label>
+        </li>
+        <li class="modal__item">
+          <select class="modal__select" name="orderDate">
+            <option value="today">Сьогодні</option>
+            <option value="tomorrow">Завтра</option>
+            <option value="aftertomorrow">Післязавтра</option>
+          </select>
+          <svg width="24px" height="24px">
+            <use href="img/symbol-defs.svg#arrow-down"></use>
+          </svg>
+          <label class="modal__label" for="room">
+            На яку дату бронювати?
+          </label>
+        </li>
+      </ul>
+
+      <button class="modal__button">ОФОРМИТИ БРОНЮВАННЯ</button>
+    </form>
+  </div>
+
+  <div class="modal modal__room-order">
+    <button class="close-button">
+      <svg width="24px" height="24px">
+        <use href="img/symbol-defs.svg#cross"></use>
+      </svg>
+    </button>
+    <h1 class="modal__title">ЗАБРОНЮВАТИ НОМЕР</h1>
+    <form class="modal__form">
+      <ul>
+        <li class="modal__item">
+          <input class="modal__input" id="name" placeholder="Ваше ім’я" />
+          <label class="modal__label" for="name">
+            На кого забронювати номер?
+          </label>
+        </li>
+        <li class="modal__item">
+          <input
+            class="modal__input"
+            name="tel"
+            id="phone"
+            placeholder="+38 (___) ___-__-__"
+          />
+          <label class="modal__label" for="phone"> Номер телефону </label>
+        </li>
+        <li class="modal__item">
+          <select class="modal__select" name="room">
+            <option value="value1">Двомісний люкс</option>
+            <option value="value2">Двомісний</option>
+            <option value="value3">Трьохмісний</option>
+          </select>
+          <svg width="24px" height="24px">
+            <use href="img/symbol-defs.svg#arrow-down"></use>
+          </svg>
+          <label class="modal__label" for="room"> Категорія номеру </label>
+        </li>
+        <li class="modal__item">
+          <select class="modal__select" name="arrivalDate">
+            <option value="today">Сьогодні</option>
+            <option value="tomorrow">Завтра</option>
+            <option value="aftertomorrow">Післязавтра</option>
+          </select>
+          <svg width="24px" height="24px">
+            <use href="img/symbol-defs.svg#arrow-down"></use>
+          </svg>
+          <label class="modal__label" for="room"> Дата заїзду </label>
+        </li>
+        <li class="modal__item">
+          <select class="modal__select" name="departureDate">
+            <option value="today">Сьогодні</option>
+            <option value="tomorrow">Завтра</option>
+            <option value="aftertomorrow">Післязавтра</option>
+          </select>
+          <svg width="24px" height="24px">
+            <use href="img/symbol-defs.svg#arrow-down"></use>
+          </svg>
+          <label class="modal__label" for="room"> Дата від'їзду </label>
+        </li>
+      </ul>
+
+      <button class="modal__button">ОФОРМИТИ БРОНЮВАННЯ</button>
+    </form>
+  </div>
+</div>
