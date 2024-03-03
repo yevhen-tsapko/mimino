@@ -4,6 +4,7 @@
 }
 .social-icon {
   fill: var(--buttonTextColor);
+  transition: fill var(--transition);
 }
 .social-icon:active,
 .social-icon:hover,
