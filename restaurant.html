@@ -20,8 +20,8 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
     
     
     
-    <script type="module" crossorigin src="/mimino/assets/main-73106793.js"></script>
-    <link rel="stylesheet" href="/mimino/assets/main-f2be86e2.css">
+    <script type="module" crossorigin src="/mimino/assets/main-43c77197.js"></script>
+    <link rel="stylesheet" href="/mimino/assets/main-06664590.css">
   </head>
   <body>
     <header class="header">
@@ -100,10 +100,14 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
       <p class="hero-slogan">СМАК ЖИТТЯ 24/7</p>
     </div>
     <div class="button-block hero-button-block">
-      <button class="button hero-button" type="button">
+      <button
+        class="button hero-button btn-js"
+        type="button"
+        data-modal="table"
+      >
         Забронювати столик
       </button>
-      <button class="button hero-button" type="button">
+      <button class="button hero-button btn-js" type="button" data-modal="room">
         Забронювати номер
       </button>
     </div>
@@ -306,8 +310,8 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
   </div>
 </section>
 
-    <section class="menu-section">
-  <div class="container">
+    <section class="" id="menu">
+  <div class="container menu-section">
     <h2 class="menu-title" id="menu">меню ресторану</h2>
 
    <div class="tables-wrap">
@@ -526,7 +530,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
           </tbody>
 </table>
    </div>
-   <button class="button food-order__button js-open-modal" data-modal="table" type="button">Забронювати столик</button>
+   <button class="button food-order__button btn-js" data-modal="table" type="button">Забронювати столик</button>
   </div>
    </section>
     <footer class="container footer">
@@ -573,6 +577,166 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
     </ul>
   </div>
 </footer>
+
+    <div class="modals">
+  <div class="modal__overlay">
+    <div class="modal" data-target="table">
+      <button class="close-button">
+        <svg width="24px" height="24px">
+          <use href="/mimino/assets/symbol-defs-e738309c.svg#cross"></use>
+        </svg>
+      </button>
+      <h1 class="modal__title">ЗАБРОНЮВАТИ СТОЛИК</h1>
+      <form class="modal__form">
+        <ul class="modal__list">
+          <li class="modal__item">
+            <input class="modal__input" id="name" placeholder="Ваше ім’я" />
+            <label class="modal__label" for="name">
+              На кого забронювати номер?
+            </label>
+          </li>
+          <li class="modal__item">
+            <input
+              class="modal__input"
+              name="tel"
+              id="phone"
+              placeholder="+38 (___) ___-__-__"
+            />
+            <label class="modal__label" for="phone"> Номер телефону </label>
+          </li>
+          <li class="modal__item">
+            <select class="modal__select" name="room">
+              <option value="value1">1</option>
+              <option value="value2" selected>2</option>
+              <option value="value3">3</option>
+              <option value="value4">Більше 3</option>
+            </select>
+            <svg width="24px" height="24px">
+              <use href="/mimino/assets/symbol-defs-e738309c.svg#arrow-down"></use>
+            </svg>
+            <label class="modal__label" for="room">
+              Столик на яку кількість осіб?
+            </label>
+          </li>
+          <li class="modal__item">
+            <select class="modal__select" name="orderDate">
+              <option value="today">Сьогодні</option>
+              <option value="tomorrow">Завтра</option>
+              <option value="aftertomorrow">Післязавтра</option>
+            </select>
+            <svg width="24px" height="24px">
+              <use href="/mimino/assets/symbol-defs-e738309c.svg#arrow-down"></use>
+            </svg>
+            <label class="modal__label" for="room">
+              На яку дату бронювати?
+            </label>
+          </li>
+        </ul>
+
+        <button class="modal__button">ОФОРМИТИ БРОНЮВАННЯ</button>
+      </form>
+    </div>
+
+    <div class="modal" data-target="room">
+      <button class="close-button">
+        <svg width="24px" height="24px">
+          <use href="/mimino/assets/symbol-defs-e738309c.svg#cross"></use>
+        </svg>
+      </button>
+      <h1 class="modal__title">ЗАБРОНЮВАТИ НОМЕР</h1>
+      <form class="modal__form">
+        <ul class="modal__list room">
+          <li class="modal__item">
+            <input class="modal__input" id="name" placeholder="Ваше ім’я" />
+            <label class="modal__label" for="name">
+              На кого забронювати номер?
+            </label>
+          </li>
+          <li class="modal__item">
+            <input
+              class="modal__input"
+              name="tel"
+              id="phone"
+              placeholder="+38 (___) ___-__-__"
+            />
+            <label class="modal__label" for="phone"> Номер телефону </label>
+          </li>
+          <li class="modal__item item_3">
+            <select class="modal__select" name="room">
+              <option value="value1">Двомісний люкс</option>
+              <option value="value2">Двомісний</option>
+              <option value="value3">Трьохмісний</option>
+            </select>
+            <svg width="24px" height="24px">
+              <use href="/mimino/assets/symbol-defs-e738309c.svg#arrow-down"></use>
+            </svg>
+            <label class="modal__label" for="room"> Категорія номеру </label>
+          </li>
+          <li class="modal__item">
+            <select class="modal__select" name="arrivalDate">
+              <option value="today">Сьогодні</option>
+              <option value="tomorrow">Завтра</option>
+              <option value="aftertomorrow">Післязавтра</option>
+            </select>
+            <svg width="24px" height="24px">
+              <use href="/mimino/assets/symbol-defs-e738309c.svg#arrow-down"></use>
+            </svg>
+            <label class="modal__label" for="room"> Дата заїзду </label>
+          </li>
+          <li class="modal__item">
+            <select class="modal__select" name="departureDate">
+              <option value="today">Сьогодні</option>
+              <option value="tomorrow">Завтра</option>
+              <option value="aftertomorrow">Післязавтра</option>
+            </select>
+            <svg width="24px" height="24px">
+              <use href="/mimino/assets/symbol-defs-e738309c.svg#arrow-down"></use>
+            </svg>
+            <label class="modal__label" for="room"> Дата від'їзду </label>
+          </li>
+        </ul>
+
+        <button class="modal__button">ОФОРМИТИ БРОНЮВАННЯ</button>
+      </form>
+    </div>
+
+    <div class="modal" data-target="prices">
+      <button class="close-button">
+        <svg width="24px" height="24px">
+          <use href="/mimino/assets/symbol-defs-e738309c.svg#cross"></use>
+        </svg>
+      </button>
+      <h1 class="modal__title">ЦІНИ НА НОМЕР</h1>
+      <h2>Двомісний люкс</h2>
+      <p>Категорія номеру</p>
+      <ul class="modal__list">
+                 
+          <li class="modal__item">
+            <select class="modal__select nights-number" >
+                   <option value="1">1</option>
+                   <option value="2">2</option>
+                   <option value="3">3</option>
+                   <option value="4">4</option>
+                   <option value="5">5</option>
+                 </select>
+            <svg width="24px" height="24px">
+              <use href="/mimino/assets/symbol-defs-e738309c.svg#arrow-down"></use>
+            </svg>
+            <label class="modal__label" for="name">
+              Кількість ночей
+            </label>
+          </li>
+          <li class="modal__item">
+                 <input class="modal__input price" id="name" placeholder="1000" />
+                                               <label class="modal__label" for="room"> грн </label>
+               </li>
+                </ul>
+
+        <button class="modal__button btn-js" data-modal="room">ЗАБРОНЮВАТИ НОМЕР</button>
+      </form>
+    </div>
+  </div>
+</div>
 
 
     <!-- slider -->
