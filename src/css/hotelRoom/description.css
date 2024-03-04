@@ -44,13 +44,27 @@
   color: var(--darkSectionTitleColor);
   border-color: var(--buttonTextColor);
 }
+
+.hotel-description button:hover,
+.hotel-description button:active,
+.hotel-description button:focus {
+  background-color: var(--buttonTextColor);
+  color: var(--buttonDarkTextColor);
+  border: none;
+}
 .hotel-description a {
   display: flex;
   gap: 12px;
   align-items: center;
   color: var(--buttonDisabledTextColor);
-  font-size: 20px;
+  font-size: 16px;
   fill: currentColor;
+  transition: color var(--transition);
+}
+.hotel-description a:hover,
+.hotel-description a:active,
+.hotel-description a:focus {
+  color: var(--buttonTextColor);
 }
 @media (min-width: 1024px) {
   .hotel-description__container {
@@ -74,6 +88,9 @@
   }
   .nav-wrap {
     margin-left: 480px;
+  }
+  .hotel-description a {
+    font-size: 20px;
   }
 }
 @media (min-width: 1280px) {

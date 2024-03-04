@@ -69,6 +69,9 @@
   bottom: 40px;
   opacity: 65%;
 }
+.hotel-room-hero a {
+  z-index: 40;
+}
 @media (min-width: 1024px) {
   .hotel-room-hero {
     width: 1024px;

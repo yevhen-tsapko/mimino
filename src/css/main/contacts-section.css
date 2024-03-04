@@ -28,6 +28,7 @@
   background-color: var(--darkSectionTitleColor);
   border: 0.5px solid var(--buttonTextColor);
   padding: 8px;
+  font-size: 14px;
 }
 .item__tel-box a {
   display: flex;
@@ -35,9 +36,10 @@
   align-items: center;
   color: inherit;
 }
-.tel {
-}
-.contacts-icon {
+.item__tel-box a:hover,
+.item__tel-box a:active,
+.item__tel-box a:focus {
+  color: var(--buttonTextColor);
 }
 .adress {
   display: flex;
@@ -52,6 +54,11 @@
 }
 .adress__text {
   width: 183px;
+}
+.adress__text:hover,
+.adress__text:active,
+.adress__text:focus {
+  color: var(--lightSectionTextColor2);
 }
 .frame__wrap {
   height: 220px;
