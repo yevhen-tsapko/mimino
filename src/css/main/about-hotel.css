@@ -12,11 +12,11 @@
   flex-direction: row-reverse;
 }
 .about__right .slider-wrapper {
-  margin-left: -200px;
+  margin-left: -234px;
 }
 .about__right .slider-buttons-block {
   justify-content: end;
-  margin-right: 217px;
+  margin-right: 190px;
 }
 @media (min-width: 1024px) {
   .about__right .about-hotel-text-block {
