@@ -23,18 +23,19 @@
 }
 .item__tel-box {
   display: flex;
-  gap: 12px;
+  gap: 10px;
 
   background-color: var(--darkSectionTitleColor);
   border: 0.5px solid var(--buttonTextColor);
+  fill: var(--buttonDisabledTextColor);
   padding: 8px;
-  font-size: 14px;
 }
 .item__tel-box a {
   display: flex;
   gap: 8px;
   align-items: center;
   color: inherit;
+  font-size: 14px;
 }
 .item__tel-box a:hover,
 .item__tel-box a:active,
